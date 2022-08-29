@@ -1,0 +1,73 @@
+.left {
+  background-color: #323E4D;
+}
+
+.top-white {
+  width: 100%;
+  height: 5rem;
+  background-color: #fff;
+  margin: 0;
+  box-shadow: 20px 20px 50px grey;
+}
+
+.main {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  padding-bottom: 0.5rem;
+  width: 50%;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.main-top {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-top h1 {
+  font-size: medium;
+}
+
+.main form {
+  padding: 0 0.5rem;
+}
+
+.task {
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+
+.task img {
+  width: 50px;
+  height: 50px;
+  border-radius: 1rem;
+}
+
+.task-left {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.task-left h2 {
+  font-size: medium;
+  margin: 0;
+}
+
+.task-left div {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
